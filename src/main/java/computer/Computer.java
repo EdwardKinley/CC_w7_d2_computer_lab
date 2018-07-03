@@ -1,4 +1,4 @@
-package device_management;
+package computer;
 
 import behaviours.IInput;
 import behaviours.IOutput;

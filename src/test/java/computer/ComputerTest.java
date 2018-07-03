@@ -1,4 +1,11 @@
-import device_management.*;
+package computer;
+
+import computer.*;
+import computer.input_devices.Keyboard;
+import computer.input_devices.Mouse;
+import computer.printing_devices.Printer;
+import computer.sound_devices.Speaker;
+import computer.visual_devices.Monitor;
 import org.junit.Before;
 import org.junit.Test;
 

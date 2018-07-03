@@ -1,4 +1,4 @@
-package device_management;
+package computer.input_devices;
 
 import behaviours.IInput;
 

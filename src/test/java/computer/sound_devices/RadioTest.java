@@ -1,4 +1,6 @@
-import device_management.Radio;
+package computer.sound_devices;
+
+import computer.sound_devices.Radio;
 import org.junit.Before;
 import org.junit.Test;
 

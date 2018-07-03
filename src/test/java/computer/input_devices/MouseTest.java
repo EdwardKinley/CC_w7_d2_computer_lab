@@ -1,4 +1,6 @@
-import device_management.Mouse;
+package computer.input_devices;
+
+import computer.input_devices.Mouse;
 import org.junit.Before;
 import org.junit.Test;
 

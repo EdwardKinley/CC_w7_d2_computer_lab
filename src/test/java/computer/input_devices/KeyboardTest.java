@@ -1,4 +1,6 @@
-import device_management.Keyboard;
+package computer.input_devices;
+
+import computer.input_devices.Keyboard;
 import org.junit.Before;
 import org.junit.Test;
 

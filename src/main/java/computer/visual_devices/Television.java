@@ -1,4 +1,4 @@
-package device_management;
+package computer.visual_devices;
 
 public class Television extends VideoDevice {
     public Television(int screenSize, int pixels) {

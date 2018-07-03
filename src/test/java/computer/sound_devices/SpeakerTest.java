@@ -1,4 +1,6 @@
-import device_management.Speaker;
+package computer.sound_devices;
+
+import computer.sound_devices.Speaker;
 import org.junit.Before;
 import org.junit.Test;
 

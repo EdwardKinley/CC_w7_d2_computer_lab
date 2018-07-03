@@ -1,6 +1,4 @@
-package device_management;
-
-import javax.swing.*;
+package computer.visual_devices;
 
 public abstract class VideoDevice {
     private int screenSize;

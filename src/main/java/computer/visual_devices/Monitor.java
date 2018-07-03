@@ -1,4 +1,4 @@
-package device_management;
+package computer.visual_devices;
 
 import behaviours.IOutput;
 

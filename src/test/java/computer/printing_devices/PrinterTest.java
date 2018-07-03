@@ -1,4 +1,6 @@
-import device_management.Printer;
+package computer.printing_devices;
+
+import computer.printing_devices.Printer;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;

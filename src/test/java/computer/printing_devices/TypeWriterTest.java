@@ -1,4 +1,6 @@
-import device_management.TypeWriter;
+package computer.printing_devices;
+
+import computer.printing_devices.TypeWriter;
 
 import static org.junit.Assert.*;
 import org.junit.Before;

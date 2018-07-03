@@ -1,4 +1,6 @@
-import device_management.Television;
+package computer.visual_devices;
+
+import computer.visual_devices.Television;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;

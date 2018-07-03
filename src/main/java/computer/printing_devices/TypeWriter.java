@@ -1,4 +1,4 @@
-package device_management;
+package computer.printing_devices;
 
 public class TypeWriter extends PrintingDevice {
 

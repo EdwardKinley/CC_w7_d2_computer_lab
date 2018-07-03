@@ -1,4 +1,6 @@
-import device_management.Monitor;
+package computer.visual_devices;
+
+import computer.visual_devices.Monitor;
 import org.junit.Before;
 import org.junit.Test;
 

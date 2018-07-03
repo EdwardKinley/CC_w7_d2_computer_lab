@@ -1,4 +1,4 @@
-package device_management;
+package computer.sound_devices;
 
 public abstract class SoundDevice {
     int maxVolume;
