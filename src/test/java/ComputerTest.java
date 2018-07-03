@@ -74,13 +74,27 @@ public class ComputerTest {
 
     @Test
     public void canInputDataViaMouse(){
-        assertEquals("clicking: submit", computer.inputDevice("submit"));
+        assertEquals("clicking: submit", computer.inputData("submit"));
 
     }
 
     @Test
     public void canInputDataViaKeybaord(){
        computer.setInputDevice(keyboard);
-       assertEquals("typing: Hello World", computer.inputDevice("Hello World"));
+       assertEquals("typing: Hello World", computer.inputData("Hello World"));
     }
+
+    @Test
+    public void dataStreamIsInitiallyNull() {
+        assertEquals(null, computer.getDataStream());
+    }
+
+    @Test
+    public void canAddTextToDataStream() {
+        computer.inputData("Hello ");
+        assertEquals("Hello ", computer.getDataStream());
+        computer.inputData("World!");
+        assertEquals("Hello World!", computer.getDataStream());
+    }
+
 }
