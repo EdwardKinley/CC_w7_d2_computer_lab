@@ -58,5 +58,8 @@ public class Computer {
         return this.dataStream;
     }
 
+    public String outputDataStream(){
+        return this.outputData(this.getDataStream());
+    }
 
 }
