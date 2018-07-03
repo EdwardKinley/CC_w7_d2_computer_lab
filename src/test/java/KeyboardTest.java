@@ -18,4 +18,9 @@ public class KeyboardTest {
         assertEquals(40, keyboard.getNumberOfKeys());
     }
 
+    @Test
+    public void canSendData(){
+        assertEquals("typing: Hello World", keyboard.sendData("Hello World"));
+    }
+
 }

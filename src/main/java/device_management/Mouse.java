@@ -19,4 +19,9 @@ public class Mouse implements IInput {
     public int getNumberOfButtons() {
         return numberOfButtons;
     }
+
+    @Override
+    public String sendData(String data) {
+        return "clicking: " + data;
+    }
 }

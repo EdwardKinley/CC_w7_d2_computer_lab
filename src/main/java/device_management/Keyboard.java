@@ -13,4 +13,9 @@ public class Keyboard implements IInput {
     public int getNumberOfKeys() {
         return numberOfKeys;
     }
+
+    @Override
+    public String sendData(String data) {
+        return "typing: " + data;
+    }
 }
